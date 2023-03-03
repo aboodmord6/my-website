@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Silkscreen' , cursive;
+	box-sizing: border-box;
+}
+body{
+	background-color: #181818;
+}
+/*header */
+header{
+	background-color: #ffffff34;
+	backdrop-filter: blur(10px);
+	position: fixed ;
+	z-index: 999;
+	width: 100%;
+	background: linear-gradient(313deg,#ff7f007a,#ff000042);
+}
+header div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.v {
+	text-decoration: none;
+	color: #ffbb00;
+}
+.name{
+	color: #ffbb00;
+	font-size: 1.2em;
+	font-weight: 700;
+	transition: color 0.75s;
+	text-decoration: none;
+}
+.nevb a{
+	text-decoration: none;
+	font-weight: 400;
+	padding-left: 40px;
+	transition: color 1s;
+}
+.nevb a:hover{
+	color: #ff0000;
+}
+.name:hover{
+	color: #ff0000;
+}
+/* section 1 */
+.int a{
+	font-size: 1.5rem;
+	color: #ffff00;
+}
+.Ai_logo{
+	max-width:100% ;
+	width: 400px;
+	height: 400px;
+}
+.fr{
+	display: flex;
+	align-items: center;
+}
+.divsc1{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.sc1{
+	display: flex;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 56px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sc1 h2{
+	color: #ffff00ee;
+}
+.sc1 h3{
+	color: #eeee00ee;
+}
+.sc1 img{
+	transition: filter 0.5s;
+}
+.sc1 img:hover{
+	filter: drop-shadow(1px 1px 10px #ffff00aa);
+
+}
+/*--section 2--*/
+.sc2{
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	max-width: 100%;
+	margin: 0 auto;
+	padding-top: 20%;
+	background-color: #FF7F00;
+	flex-direction: column;
+
+}
+.sc2 h2{
+	font-weight: 50;
+	color: #484848;
+	font-size: 28px;
+}
+.text1{
+	text-align: center;
+
+}
+.text1 h1{
+	font-size: 2.5rem;
+	color: #000000;
+}
+/*--section 3--*/
+.sc3{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	max-width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.pro{
+	margin: 40px;
+}
+.pro h1{
+	font-size: 40px;
+	color: #FF7F00;
+}
+.divs{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-around;
+}
+.contenr{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.ico{
+	color: #f0f0f05e;
+	font-size: 4rem;
+
+}
+.cart{
+	display: flex;
+	height: 250px;
+	width: 220px;
+	border-radius: 20px;
+	align-items: center;
+    justify-content: center;
+	flex-direction: column;
+	backdrop-filter: blur(10px);
+    background: linear-gradient(313deg,#ff7f007a,#ff000042);
+    box-shadow: 3px 3px 30px 0px #ff000030;
+    transition: 0.5s;
+}
+.cart:hover{
+	box-shadow:  7px 7px 30px 0px red;
+	transform: scale(1.06);
+}
+.cart h1{
+	font-size:1.8rem;
+	color:#FFcc00aa;
+}
+/*--carves--*/
+.cur {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.cur svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 186px;
+}
+
+.cur .shape-fill {
+    fill: #FF7F00;
+}
+.cur1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.cur1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 186px;
+}
+
+.cur1 .shape-fill {
+    fill: #FF7F00;
+}
+/*--section4--*/
+.sc4{
+	display:flex;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+
+.contacthed{
+	font-size: 40px;
+	color: #FF7F00;
+}
+.glasso{
+	display: flex;
+    height: 25rem;
+    width: 50rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ffffff26;
+    border-radius: 20px;
+    box-shadow: 13px 9px 60px 0px #ff800050;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(60deg,#ff7f001a,#ffff0020);
+}
