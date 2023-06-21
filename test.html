@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patient Information Form</title>
+</head>
+<body>
+	<h1>Patient Information Form</h1>
+	<form action="/submit-patient-info/" method="post">
+		{% csrf_token %}
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required><br><br>
+
+		<label for="age">Age:</label>
+		<input type="number" name="age" id="age" required><br><br>
+
+		<label for="first_period_age">Age at first period:</label>
+		<input type="number" name="first_period_age" id="first_period_age" required><br><br>
+
+		<label for="sexual_partner">Sexual partner:</label>
+		<input type="radio" name="sexual_partner" id="sexual_partner_yes" value="Yes" required>
+		<label for="sexual_partner_yes">Yes</label>
+		<input type="radio" name="sexual_partner" id="sexual_partner_no" value="No" required>
+		<label for="sexual_partner_no">No</label><br><br>
+
+		<label for="birth_control_method">Birth control method:</label>
+		<select name="birth_control_method" id="birth_control_method" required>
+			<option value="">Select a method</option>
+			<option value="Pill">Pill</option>
+			<option value="Condom">Condom</option>
+			<option value="IUD">IUD</option>
+			<option value="Implant">Implant</option>
+			<option value="Sterilization">Sterilization</option>
+
